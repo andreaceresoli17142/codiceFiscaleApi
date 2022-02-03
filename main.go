@@ -119,13 +119,6 @@ var CARATTERE_CONTROLLO_RESTO = []string{
 	"U",
 }
 
-// func input(input_text string) string {
-// 	var inp string
-// 	fmt.Print(input_text)
-// 	fmt.Scanf("%v", &inp)
-// 	return inp
-// }
-
 func readCsvFromFile(file_path string) ([][]string, error) {
 
 	ret := [][]string{}
